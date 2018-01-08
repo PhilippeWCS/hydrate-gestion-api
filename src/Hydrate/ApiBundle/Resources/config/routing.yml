@@ -1,0 +1,7 @@
+hydrate_api_homepage:
+    path:     /
+    defaults: { _controller: HydrateApiBundle:Default:index }
+
+hydrate_api_user_login_check:
+    path: /login_check
+    defaults: { _controller: HydrateApiBundle:User\Security:loginCheck}

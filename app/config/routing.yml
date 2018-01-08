@@ -1,3 +1,3 @@
-app:
-    resource: '@AppBundle/Controller/'
-    type: annotation
+hydrate_api:
+    resource: "@HydrateApiBundle/Resources/config/routing.yml"
+    prefix:   /api

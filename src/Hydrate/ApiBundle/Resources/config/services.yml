@@ -1,0 +1,4 @@
+services:
+#    hydrate_api.example:
+#        class: Hydrate\ApiBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]
